@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "sugarexploit_client",
+  "version": "${version}",
+  "name": "SugarClient Framework",
+  "description": "Clean modular client framework for Minecraft 1.21.11.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.sugarexploit.client.Main"] },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
