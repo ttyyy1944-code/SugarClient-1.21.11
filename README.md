@@ -48,3 +48,8 @@ The mod JAR is expected in `build/libs/` after a successful build.
 3. Add further modules in separate files under `module/impl/`, with settings where appropriate.
 
 The architecture specification is the design reference. Features are added in stages and are not marked complete until implemented and tested.
+
+
+## Cloud build
+
+GitHub Actions compiles this project on pushes to `main` using Java 21. The successful `SugarClient-JAR` artifact is available from the workflow run's Artifacts section.
