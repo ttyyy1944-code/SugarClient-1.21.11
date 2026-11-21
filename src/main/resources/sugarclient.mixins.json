@@ -6,6 +6,7 @@
   "client": [
     "EntityHitboxMixin",
     "LowFireMixin",
+    "HandViewMixin",
     "NoParticlesMixin",
     "LocalPlayerSilentAimMixin"
   ],
